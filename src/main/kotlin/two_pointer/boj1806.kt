@@ -1,4 +1,4 @@
-package two_pointer
+package src.main.kotlin.two_pointer
 
 import java.util.StringTokenizer
 
