@@ -1,4 +1,4 @@
-package dijkstra
+package src.main.kotlin.dijkstra
 
 import java.lang.StringBuilder
 import java.util.PriorityQueue
