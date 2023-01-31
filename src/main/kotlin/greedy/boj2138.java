@@ -1,4 +1,4 @@
-package greedy;
+package src.main.kotlin.greedy;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
