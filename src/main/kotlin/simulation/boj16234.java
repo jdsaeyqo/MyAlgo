@@ -9,7 +9,6 @@ public class boj16234 {
     static boolean[][] visit;
     static ArrayList<int[]> list = new ArrayList<int[]>();
     static int n, L, R;
-
     static int[] dx = {1, 0, -1, 0};
     static int[] dy = {0, 1, 0, -1};
 
