@@ -1,4 +1,4 @@
-package src.main.kotlin.dfs
+package src.main.kotlin.bfs
 
 import java.lang.StringBuilder
 import java.util.*
