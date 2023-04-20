@@ -7,7 +7,6 @@ class boj16637 {
     fun sol() {
 
         val N = readLine()!!.toInt()
-
         val line = readLine()!!.split("")
 
         line.forEach {
