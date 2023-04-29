@@ -3,7 +3,6 @@ package src.main.kotlin.string;
 public class pg121683 {
     public String solution(String input_string) {
         String answer = "";
-        String[] alpha = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
         int[] cnt = new int[26];
         int[] continueCnt = new int[26];
 
@@ -34,7 +33,7 @@ public class pg121683 {
         boolean flag = false;
         for(int i = 0; i < 26; i++){
             if(cnt[i] >= 2 && continueCnt[i] >= 2){
-                sb.append(alpha[i]);
+                sb.append( (char) ('a'+i) );
                 flag = true;
             }
         }
