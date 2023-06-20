@@ -64,7 +64,6 @@ class boj7569 {
                     q.offer(intArrayOf(nz, nx, ny))
 
                 }
-
             }
             cnt++
         }
