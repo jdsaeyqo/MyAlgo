@@ -19,10 +19,4 @@ class pg70129 {
 
         return intArrayOf(cnt, delCnt)
     }
-
-}
-
-fun main(){
-    val ans = pg70129().solution("1111111")
-    println(ans.contentToString())
 }
